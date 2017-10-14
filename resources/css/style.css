@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  border-bottom: 1px solid black;
+}
+
+header img {
+  display: flex;
+  padding: 10px;
+}
+
+header p {
+  align-self: center;
+  color: MediumAquamarine;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  top: 0;
+  right: 0;
+  height: 80px;
+  position: fixed;
+}
+
+nav ul {
+  padding-right: 50px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav a {
+  color: black;
+}
