@@ -44,10 +44,6 @@ nav a {
   color: black;
 }
 
-div {
-  border: 1px solid black;
-}
-
 .main {
   align-items: stretch;
   display: flex;
@@ -61,25 +57,46 @@ div {
   margin-right: 32px;
 }
 
-.column.large {
+.column .large {
   width: 630px;
 }
 
-.column.medium {
+.column .medium {
   width: 300px;
 }
 
-.column.small {
+.column .small {
   width: 240px;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
 .story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.orca {
+  display: block;
+  height: 250px;
+}
+
+.burger {
+  display: block;
+  height: 250px;
 }
 
 .body {
+  display: block;
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin-top: 16px;
 }
 
 .main span {
